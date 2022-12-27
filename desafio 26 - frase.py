@@ -1,0 +1,6 @@
+frase = str(input('Digite uma frase: '))
+maiusculo = frase.upper()
+a = maiusculo.count("A")
+primeiravez = maiusculo.find("A")
+ultimavez = maiusculo.rfind("A")
+print(f'A letra "A" aparece {a} vezes na frase, enquanto sua primeira ocorrência está na posição {primeiravez}, e a última na {ultimavez} ')
