@@ -1,8 +1,0 @@
-var = input('Digite alguma coisa! ')
-print ('O tipo do que você digitou é', type(var))
-print('O que você digitou tem somente espaços?', var.isspace())
-print('O que você digitou é numérico?', var.isnumeric())
-print('Tem somente letras?', var.isalpha())
-print('Tem só maiúsculas?', var.isupper())
-print('Tem só minúsculas?', var.lower())
-print('Começa com letra maiúscula?', var.is)
